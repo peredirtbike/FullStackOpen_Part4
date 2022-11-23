@@ -21,7 +21,7 @@ const favouriteBlog = (blogs) => {
     const max = Math.max(...likes);
     return blogs?.length
       ?max 
-      :0
+      :2
   }else{
     return 0
   }

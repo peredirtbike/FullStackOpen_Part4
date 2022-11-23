@@ -16,7 +16,7 @@ mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true })
     logger.info('connected to MongoDB')
   })
   .catch((error) => {
-    logger.error('error connection to MongoDB:', error.message)
+    logger.error('error connection dasdasd to MongoDB:', error.message)
   })
 
 app.use(cors())
